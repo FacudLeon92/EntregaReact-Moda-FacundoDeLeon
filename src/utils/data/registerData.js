@@ -1,0 +1,38 @@
+export const register = [
+  {
+    id: 1,
+    label: 'Usuario',
+    name: 'username',
+    type: 'text',
+    placeholder: 'usuario',
+    errorMessage: '3 o mas caracteres',
+    shared: true,
+  },
+  {
+    id: 2,
+    label: 'Email',
+    name: 'email',
+    type: 'email',
+    placeholder: 'tu email',
+    errorMessage: 'formato invalido',
+    shared: false,
+  },
+  {
+    id: 3,
+    label: 'Contraseña',
+    name: 'password',
+    type: 'password',
+    placeholder: 'contraseña',
+    errorMessage: 'tiene que contener 8 caracteres o mas.',
+    shared: false,
+  },
+  {
+    id: 4,
+    label: 'Confirmar Contraseña',
+    name: 'confirmPassword',
+    type: 'password',
+    placeholder: 'Confirmar Contraseña',
+    errorMessage: 'Las contraseñas no coiciden.',
+    shared: true,
+  },
+];
